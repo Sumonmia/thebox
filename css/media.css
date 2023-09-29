@@ -1,0 +1,336 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px){
+       /* menubar start */
+   .menu ul li a {
+    margin: 0;
+    line-height: 1;
+    }
+        /* banner start */
+        .b_h1 {
+            font-size: 25px;
+            padding: 90px 0px;
+        }
+    /* reputation start */
+.reputation {
+    text-align: center;
+}
+.rep_padding {
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+.rep_content {
+    margin-top: 0px;
+    padding: 15px 15px 30px 15px;
+}
+        /* about us start */
+        .aboutus {
+            margin: 30px 0 50px;
+        }
+        .box {
+            text-align: center;
+            position: static;
+        }
+        .about_box {
+            margin: 0 20px;
+        }
+    /* service start */
+    .service_contents {
+        margin: 20px 35px 0px;
+    }
+        /* experience start */
+        .experience{
+            margin-bottom: 20px;
+        }
+        .right_box {
+            text-align: center;
+            padding: 5px;
+        }
+        .ex_h1 {
+            font-size: 32px;
+            padding-right: 0px;
+        }
+        .ex_p {
+            padding: 20px 0 30px;
+        }
+        /* consultation start */
+        .consult{
+            text-align: center;
+            padding: 25px 15px;
+        }
+        .con_p{
+            font-size: 16px;
+        }
+        /* form start */
+        .input1{
+            width: 100%;
+        }
+        .f_content p {
+            padding: 5px;
+        }
+    /* footer top start */
+    .footertop {
+        text-align: center;
+        padding: 15px 0;
+    }
+    .middle_p {
+        padding: 10px 0;
+    }
+    .ft_logo {
+        padding-top: 10px;
+    }
+    .f_control {
+        padding: 15px 0 15px;
+    }
+    .ft_btn {
+        width: 40%;
+        margin-top: 15px;
+    }
+    /* footer start */
+    .footer_p p {
+        text-align: center;
+    }
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px){
+   /* menubar start */
+   .menu ul li a {
+    margin: 0;
+    line-height: 1;
+}
+        /* banner start */
+        .b_h1 {
+            font-size: 30px;
+            padding: 90px 0px;
+        }
+
+/* reputation start */
+.reputation {
+    text-align: center;
+}
+.rep_padding {
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+.rep_content {
+    margin-top: 0px;
+    padding: 15px 15px 30px 15px;
+}
+        /* about us start */
+        .aboutus {
+            margin: 30px 0 50px;
+        }
+        .box {
+            text-align: center;
+            position: static;
+        }
+        .about_box {
+            margin: 0 20px;
+        }
+    /* service start */
+    .service_contents {
+        margin: 20px 35px 0px;
+    }
+        /* experience start */
+        .experience{
+            margin-bottom: 20px;
+        }
+        .right_box {
+            text-align: center;
+            padding: 5px;
+        }
+        .ex_h1 {
+            font-size: 32px;
+            padding-right: 0px;
+        }
+        .ex_p {
+            padding: 20px 0 30px;
+        }
+        /* consultation start */
+        .consult{
+            text-align: center;
+            padding: 25px 50px;
+        }
+    /* footer top start */
+    .footertop {
+        text-align: center;
+        padding: 15px 0;
+    }
+    .middle_p {
+        padding: 10px 0;
+    }
+    .ft_logo {
+        padding-top: 10px;
+    }
+    .ft_btn {
+        width: 30%;
+        margin-top: 15px;
+    }
+    /* footer start */
+    .footer_p p {
+        text-align: center;
+    }
+}
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px){
+    /* menubar start */
+    
+    .menu ul li a {
+        margin: 0;
+        line-height: 1;
+    }
+    /* banner start */
+    .b_h1 {
+        font-size: 40px;
+        padding: 100px 0px;
+    }
+    /* reputation start */
+    .rep_padding {
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
+    .rep_content {
+        margin-top: 25px;
+        padding: 15px 25px 30px 15px;
+    }
+    /* about us start */
+    .aboutus {
+        margin: 30px 0 50px;
+    }
+    .box {
+        text-align: center;
+        position: static;
+    }
+    .about_box {
+        margin: 0 20px;
+    }
+    /* service start */
+    .service_contents {
+        margin: 20px 35px 0px;
+    }
+    /* experience start */
+    .experience{
+        margin-bottom: 20px;
+    }
+    .right_box {
+        text-align: center;
+        padding: 20px;
+    }
+    .ex_h1 {
+        padding-right: 0px;
+    }
+    .ex_p {
+        padding: 20px 0 30px;
+    }
+    /* footer top start */
+    .footertop {
+        text-align: center;
+        padding: 30px 0;
+    }
+    .middle_p {
+        padding: 10px 0;
+    }
+    .ft_logo {
+        padding-top: 10px;
+    }
+    .ft_btn {
+        width: 30%;
+        margin-top: 15px;
+    }
+    /* footer start */
+    .footer_p p {
+        text-align: center;
+    }
+ }
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    
+    /* banner start */
+    .b_h1 {
+        padding: 150px 0px;
+    }
+    /* about us start*/
+    .box {
+        bottom: 50px;
+        right: 100px;
+    }
+    .about_box {
+        padding: 35px 15px 45px 15px;
+    }
+    .about_box p {
+        margin-top: 20px;
+    }
+    .about_box button {
+        margin-top: 20px;
+    }
+    /* experience start */
+    .ex_box1 {
+        right: 60px;
+        top: 20px;
+    }
+    .ex_img1 {
+        right: 40px;
+        top: 5px;
+    }
+    .ex_box2 {
+        right: 220px;
+        top: 80px;
+    }
+    .ex_img2 {
+        top: 70px;
+        left: 10px;
+    }
+    .ex_box3 {
+        right: 115px;
+        top: 170px;
+    }
+    .ex_img3 {
+        right: 80px;
+        top: 160px;
+    }
+    .ex_box4 {
+        top: 240px;
+        left: 40px;
+    }
+    .ex_img4 {
+        top: 335px;
+        right: 200px;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+
+    /* experience start */
+    .ex_img1 {
+        right: 60px;
+        top: 30px;
+    }
+    .ex_box2 {
+        right: 250px;
+        top: 110px;
+    }
+    .ex_img2 {
+        top: 100px;
+        left: 70px;
+    }
+    .ex_box3 {
+        right: 130px;
+        top: 200px;
+    }
+    .ex_img3 {
+        right: 110px;
+        top: 180px;
+    }
+    .ex_box4 {
+        top: 260px;
+        left: 110px;
+    }
+    .ex_img4 {
+        top: 360px;
+        right: 220px;
+    }
+
+}
+/* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px){
+
+}
