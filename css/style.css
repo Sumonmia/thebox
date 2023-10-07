@@ -95,7 +95,7 @@ header{
 }
 .rep_content{
     margin-top: 35px;
-    padding: 15px 100px 30px 15px;
+    padding: 15px 60px 30px 80px;
 }
 .rep_content img{
     width: 30px;
@@ -340,6 +340,66 @@ padding: 30px 0px;
 }
 /* consultation end */
 
+/* projects start */
+.projects{
+    margin-top: 65px;
+    margin-bottom: 100px;
+}
+.p_h1{}
+.p_menus{}
+.p_menus ul{}
+.p_menus ul li{
+    margin-top: 15px;
+}
+.p_menus ul li span{
+    display: none;
+}
+.p_menus ul li:hover span{
+    display: inline-block;
+    width: 2px;
+    font-weight: 700;
+    height: 20px;
+    transition: .33s ease-in-out;
+    color: #2947A9;
+    /* padding-left: 12px; */
+}
+.p_menus ul li a{
+    text-decoration: none;
+    color: #C2C7D6 !important;
+    /* text-align: center; */
+    font-size: 18px;
+    font-weight: 500;
+}
+.p_menus ul li:hover a{
+    color:#2947A9 !important;
+    font-weight: 700;
+}
+.mix{
+    padding: 0px 40px;
+}
+
+.menu_img{}
+.pm_img{
+    /* text-align: center; */
+    margin-top: 10px;
+}
+.pm_img img{}
+
+.pm_text{ 
+    background-color: #2947A9;
+    padding: 10px;
+}
+.pm_text h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.pm_text p{
+    margin-top: 10px;
+    color: #ffffff;
+}
+/* projects end */
+
 /* form start */
 .form{
     padding: 46px 0;
@@ -395,6 +455,9 @@ padding: 30px 0px;
 }
 .ft_logo{
     padding-top: 25px;
+}
+.ft_logo a{
+    text-decoration: none;
 }
 .ft_logo img{}
 .ft_logo span{

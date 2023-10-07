@@ -67,6 +67,23 @@
         .f_content p {
             padding: 5px;
         }
+
+    /*projects mit it up start  */
+    .projects {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .mix {
+        padding: 0px 5px;
+    }
+    .pm_text {
+        padding: 5px;
+    }
+    .pm_text p {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
     /* footer top start */
     .footertop {
         text-align: center;
@@ -150,6 +167,23 @@
             text-align: center;
             padding: 25px 50px;
         }
+
+    /*projects mit it up start  */
+    .projects {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .mix {
+        padding: 0px 5px;
+    }
+    .pm_text {
+        padding: 5px;
+    }
+    .pm_text p {
+        margin-top: 5px;
+        font-size: 14px;
+    }
     /* footer top start */
     .footertop {
         text-align: center;
@@ -190,7 +224,7 @@
     }
     .rep_content {
         margin-top: 25px;
-        padding: 15px 25px 30px 15px;
+        padding: 15px 12px 30px 30px;
     }
     /* about us start */
     .aboutus {
@@ -221,6 +255,22 @@
     .ex_p {
         padding: 20px 0 30px;
     }
+        /*projects mit it up start  */
+        .projects {
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+    
+        .mix {
+            padding: 0px 20px;
+        }
+        .pm_text {
+            padding: 5px;
+        }
+        .pm_text p {
+            margin-top: 5px;
+            font-size: 14px;
+        }
     /* footer top start */
     .footertop {
         text-align: center;
