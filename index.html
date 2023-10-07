@@ -30,16 +30,16 @@
                   <a class="nav-link" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link" href="#about_us">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Projects</a>
+                  <a class="nav-link" href="#project">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
+                  <a class="nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us</a>
+                  <a class="nav-link" href="#contact">Contact Us</a>
                 </li>
               </ul>
               </div>
@@ -142,7 +142,7 @@
     <!-- reputation end -->
 
     <!-- about us start -->
-    <section class="aboutus">
+    <section class="aboutus" id="about_us">
       <div class="container">
         <div class="row">
           <div class="col-lg-9">
@@ -162,7 +162,7 @@
     </section>
     <!-- about us end -->
     <!-- service start -->
-    <section class="service">
+    <section class="service" id="services">
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
@@ -313,8 +313,112 @@
       </div>
     </section>
     <!-- consultation end -->
+
+    <!-- projects start -->
+        <!-- the box projects mix it up -->
+        <section class="projects" id="project">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="p_h1">
+                  <h1 class=" r_h1 mb-0">Projects</h1>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="p_menus">
+                  <ul class="list-unstyled">
+                    <li>
+                      <div class="row">
+                        <div class="col-1">
+                          <span>|</span>
+                        </div>
+                        <div class="col-10">
+                          <a data-filter="all">All</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-1">
+                          <span>|</span>
+                        </div>
+                        <div class="col-10">
+                          <a data-filter=".commerce">Commercial</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-1">
+                          <span>|</span>
+                        </div>
+                        <div class="col-10">
+                          <a data-filter=".res">Residential</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-1">
+                          <span>|</span>
+                        </div>
+                        <div class="col-10">
+                          <a data-filter=".other">Other</a>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-9">
+                <div class="row menu_img">
+                  <div class="col-sm-6  mix commerce">
+                    <div class="pm_img">
+                      <img src="img/c1.png" class="w-100" alt="filter">
+                    </div>
+                    <div class="pm_text">
+                      <h3 class="mb-0">Wildstone Infra Hotel</h3>
+                      <p class="mb-0">2715 Ash Dr. San Jose, South Dakota</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-6  mix commerce">
+                    <div class="pm_img">
+                      <img src="img/c2.png" class="w-100" alt="filter">
+                    </div>
+                    <div class="pm_text">
+                      <h3 class="mb-0">Wildstone Infra Hotel</h3>
+                      <p class="mb-0">2715 Ash Dr. San Jose, South Dakota</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 mix res">
+                    <div class="pm_img">
+                      <img src="img/house.png" class="w-100" alt="filter">
+                    </div>
+                    <div class="pm_text">
+                      <h3 class="mb-0">Wildstone Infra Hotel</h3>
+                      <p class="mb-0">2715 Ash Dr. San Jose, South Dakota</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-6 mix other">
+                    <div class="pm_img">
+                      <img src="img/other.png" class="w-100" alt="filter">
+                    </div>
+                    <div class="pm_text">
+                      <h3 class="mb-0">Wildstone Infra Hotel</h3>
+                      <p class="mb-0">2715 Ash Dr. San Jose, South Dakota</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    <!-- projects end -->
+
     <!-- form start -->
-    <section class="form text-center">
+    <section class="form text-center" id="contact">
       <div class="container">
         <div class="row">
           <div class="offset-lg-2 col-lg-8">
@@ -349,7 +453,7 @@
               <p class="mb-0 middle_p"> <span>Phone: </span>+## ##### ####</p>
               <p class="mb-0"> <span>Email: </span>sample@thebox.com</p>
               <div class="ft_logo">
-                <img src="img/logo.png" class="image-fluid logo" alt="The Box"><span><i>The</i>Box</span></a>
+                <a href="#"><img src="img/logo.png" class="image-fluid logo" alt="The Box"><span><i>The</i>Box</span></a>
               </div>
             </div>
           </div>
@@ -397,7 +501,10 @@
     <!-- footer end -->
 
     <!-- script links -->
-    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="vendor/counter-up/js/jquery.counterup.min.js"></script>
+    <script src="vendor/mixitup-3/dist/mixitup.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
