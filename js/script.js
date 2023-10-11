@@ -13,4 +13,7 @@ $(document).ready(function(){
                     duration: 300
                 }
             });
+
+            // move to top
+            $('body').materialScrollTop();
 })
